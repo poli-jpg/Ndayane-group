@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { ShieldCheck, PenTool, HeartHandshake, Layers } from "lucide-react";
-import DoorArt from "@/components/DoorArt";
+import DoorImage from "@/components/DoorImage";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
-import { DEFAULT_WHATSAPP_MESSAGE } from "@/lib/config";
+import { DEFAULT_WHATSAPP_MESSAGE, ABOUT_IMAGE } from "@/lib/config";
 
 export const metadata: Metadata = {
   title: "À propos",
@@ -28,7 +28,14 @@ export default function AProposPage() {
             </p>
           </div>
           <div className="bracket mx-auto w-full max-w-xs">
-            <DoorArt category="sur-mesure" tone="stone" seed={7} className="w-full" />
+            <DoorImage
+              src={ABOUT_IMAGE}
+              alt="Ndayane Group"
+              category="sur-mesure"
+              tone="stone"
+              seed={7}
+              className="aspect-[4/5] w-full"
+            />
           </div>
         </div>
       </section>
