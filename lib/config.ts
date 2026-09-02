@@ -49,7 +49,7 @@ export const FACEBOOK_URL = "www.facebook.com/ndayane groupe";
 export const NAV_LINKS = [
   { label: "Accueil", href: "/" },
   { label: "Nos portes", href: "/portes" },
-  { label: "Catalogues", href: "/catalogues" },
+  { label: "Catalogues", href: "/realisations" },
   { label: "À propos", href: "/a-propos" },
   { label: "Contact", href: "/contact" },
 ] as const;
