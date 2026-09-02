@@ -38,7 +38,7 @@ export const SITE_URL = "https://ndayane-group.vercel.app/";
 // Photo de la page "À propos". Déposez le fichier dans /public/images/
 // (ex: /public/images/a-propos.jpg) puis renseignez le chemin ici.
 // Laissez `undefined` pour conserver l'illustration de substitution.
-export const ABOUT_IMAGE: string | undefined = "/images/porte9.jpg";
+  export const ABOUT_IMAGE: string | undefined = "/images/porte9.jpeg";
 
 export const TIKTOK_URL = "https://www.tiktok.com/ndayane groupe";
 
