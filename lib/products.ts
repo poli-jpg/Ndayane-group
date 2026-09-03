@@ -180,7 +180,7 @@ export const PRODUCTS: Product[] = [
     finish: "Gris anthracite",
     dimensions: "Sur devis",
     images: 3,
-    photos: ["/images/portes/porte4.jpeg"],
+    photos: ["/images/portes/porte10.jpeg"],
     featured: true,
     available: true,
     priceOnRequest: true,
