@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
 import QRCodeBlock from "@/components/QRCodeBlock";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
+import { TiktokIcon, InstagramIcon, FacebookIcon } from "@/components/SocialIcons";
 import {
   ADDRESS,
   EMAIL,
@@ -73,18 +74,36 @@ export default function ContactPage() {
               <WhatsAppButton message={DEFAULT_WHATSAPP_MESSAGE} label="Nous écrire sur WhatsApp" />
             </div>
 
-            <div className="mt-10 flex gap-5 text-sm text-steel">
-              <a href={TIKTOK_URL} target="_blank" rel="noopener noreferrer" className="hover:text-ink">
-                TikTok
+            <div className="mt-10 flex items-center gap-4">
+              <a
+                href={TIKTOK_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="TikTok"
+                className="flex h-9 w-9 items-center justify-center border border-stone-line text-steel transition-colors hover:border-brass-deep hover:text-brass-deep"
+              >
+                <TiktokIcon className="h-4 w-4" />
               </a>
               {INSTAGRAM_URL && (
-                <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer" className="hover:text-ink">
-                  Instagram
+                <a
+                  href={INSTAGRAM_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Instagram"
+                  className="flex h-9 w-9 items-center justify-center border border-stone-line text-steel transition-colors hover:border-brass-deep hover:text-brass-deep"
+                >
+                  <InstagramIcon className="h-4 w-4" />
                 </a>
               )}
               {FACEBOOK_URL && (
-                <a href={FACEBOOK_URL} target="_blank" rel="noopener noreferrer" className="hover:text-ink">
-                  Facebook
+                <a
+                  href={FACEBOOK_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Facebook"
+                  className="flex h-9 w-9 items-center justify-center border border-stone-line text-steel transition-colors hover:border-brass-deep hover:text-brass-deep"
+                >
+                  <FacebookIcon className="h-4 w-4" />
                 </a>
               )}
             </div>
