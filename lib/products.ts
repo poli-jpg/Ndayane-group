@@ -206,12 +206,12 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: "p9",
-    name: "Atelier Sur Mesure",
+    name: "Modern Horizontal",
     slug: "atelier-sur-mesure",
     reference: "NG-SM-01",
     description: "Conception entièrement personnalisée selon votre projet.",
     longDescription:
-      "Chaque projet est unique. Le modèle Atelier est un point de départ : dimensions, matériaux, finitions et niveau de sécurité sont définis avec vous selon les besoins de votre habitation.",
+      "Panneau principal gris anthracite structuré avec bandes horizontales en alu/inox et panneau central vertical encadrant la zone de verrouillage.Spots LED intégrés dans la traverse supérieure du cadre pour illuminer la façade de la porte.",
     category: "sur-mesure",
     material: "Selon projet",
     finish: "Selon projet",
