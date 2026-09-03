@@ -35,16 +35,18 @@ export const OPENING_HOURS = "Lundi – Vendredi · 8h00 – 18h30, Samedi · 9h
 // de la configuration du nom de domaine définitif.
 export const SITE_URL = "https://ndayane-group.vercel.app/";
 
+export const HERO_IMAGE: string | undefined = "/images/porte9.jpeg";
+
 // Photo de la page "À propos". Déposez le fichier dans /public/images/
 // (ex: /public/images/a-propos.jpg) puis renseignez le chemin ici.
 // Laissez `undefined` pour conserver l'illustration de substitution.
   export const ABOUT_IMAGE: string | undefined = "/images/porte9.jpeg";
 
-export const TIKTOK_URL = "https://www.tiktok.com/ndayane groupe";
+export const TIKTOK_URL = "https://www.tiktok.com/@ndayane_group"
 
 // TODO(client): ajouter uniquement lorsque les liens officiels sont fournis.
-export const INSTAGRAM_URL = "www.instagram.com/ndayane groupe";
-export const FACEBOOK_URL = "www.facebook.com/ndayane groupe";
+export const INSTAGRAM_URL = "https://www.instagram.com/ndayanegroupe";
+export const FACEBOOK_URL = "https://www.facebook.com/ndayanegroupe";
 
 export const NAV_LINKS = [
   { label: "Accueil", href: "/" },
