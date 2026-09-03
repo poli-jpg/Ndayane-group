@@ -104,6 +104,14 @@ export default function QRCodeBlock() {
           fgColor="#14161a"
           level="H"
           marginSize={2}
+          imageSettings={{
+            // Doit correspondre exactement au fichier logo utilisé dans la
+            // navbar (components/Navbar.tsx). Changez le nom si besoin.
+            src: "/logond-removebg-preview.png",
+            height: Math.round(DISPLAY_SIZE * 0.2),
+            width: Math.round(DISPLAY_SIZE * 0.2),
+            excavate: true,
+          }}
         />
       </div>
       <p className="max-w-xs text-sm text-steel">
