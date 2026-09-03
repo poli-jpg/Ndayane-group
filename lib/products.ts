@@ -169,7 +169,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: "p7",
-    name: "Modern Diamond Pyramid All-Over",
+    name: "Modern Diamond Pyramid",
     slug: "cubik-moderne",
     reference: "NG-MO-01",
     description: "Gris anthracite mat métallisé avec accessoires inox/argentés.",
