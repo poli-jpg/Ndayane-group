@@ -115,13 +115,13 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: "p4",
-    name: "Nova Entrée",
-    slug: "nova-entree",
+    name: "Modern Full Vertical Slats",
+    slug: "Portes intérieures",
     reference: "NG-EN-02",
     description: "Porte d'entrée élégante avec ligne verticale signature.",
     longDescription:
-      "Nova joue la carte de la sobriété élégante avec une ligne verticale qui structure la façade. Un modèle qui s'intègre aussi bien dans un style moderne que traditionnel revisité.",
-    category: "entree",
+      "Panneau principal entièrement habillé d'un motif à rainures et cannelures verticales régulières sur toute la hauteur, offrant une texture architecturale épurée.Longue poignée bâton de maréchal tubulaire verticale en métal foncé mat, intégrée le long de la zone de verrouillage.",
+    category: "Portes intérieures",
     material: "Acier et bois composite",
     finish: "Bois naturel",
     dimensions: "Sur devis",
