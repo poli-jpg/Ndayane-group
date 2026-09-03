@@ -51,12 +51,12 @@ export interface Product {
 export const PRODUCTS: Product[] = [
   {
     id: "p1",
-    name: "Alto Blindée",
+    name: "Modern Horizontal Line with Integrated Lighting",
     slug: "alto-blindee",
     reference: "NG-BL-01",
     description: "Porte blindée renforcée, conçue pour une sécurité maximale.",
     longDescription:
-      "Un modèle pensé pour renforcer la protection de votre habitation sans compromis sur l'esthétique. Structure renforcée et finitions soignées pour une entrée à la fois rassurante et élégante.",
+      "Panneau principal gris anthracite structuré avec bandes horizontales en alu/inox et panneau central vertical encadrant la zone de verrouillage.Spots LED intégrés dans la traverse supérieure du cadre pour illuminer la façade de la porte.",
     category: "blindees",
     material: "Acier renforcé",
     finish: "Laqué mat",
