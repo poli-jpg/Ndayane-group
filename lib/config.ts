@@ -45,8 +45,8 @@ export const HERO_IMAGE: string | undefined = "/images/porte9.jpeg";
 export const TIKTOK_URL = "https://www.tiktok.com/@ndayane_group"
 
 // TODO(client): ajouter uniquement lorsque les liens officiels sont fournis.
-export const INSTAGRAM_URL = "https://www.instagram.com/ndayanegroupe";
-export const FACEBOOK_URL = "https://www.facebook.com/ndayanegroupe";
+export const INSTAGRAM_URL = "https://www.instagram.com/ndayane_group";
+export const FACEBOOK_URL = "https://www.facebook.com/ndayane_group";
 
 export const NAV_LINKS = [
   { label: "Accueil", href: "/" },
