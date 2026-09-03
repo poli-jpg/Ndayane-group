@@ -21,9 +21,8 @@ export default function RealisationsPage() {
             Nos catalogues
           </h1>
           <p className="mt-4 max-w-xl text-sm leading-relaxed text-steel">
-            Un aperçu des portes réellement installées chez nos clients. Les
-            photographies HD seront ajoutées au fur et à mesure des projets
-            livrés par Ndayane Group.
+            Découvrez notre catalogue de portes : modèles, finitions et styles
+            disponibles chez Ndayane Group.
           </p>
         </div>
       </section>
