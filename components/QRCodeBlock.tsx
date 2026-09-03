@@ -96,7 +96,7 @@ export default function QRCodeBlock() {
 
   return (
     <div className="flex flex-col items-center gap-6 border border-stone-line bg-white p-8 text-center sm:p-10">
-      <div ref={svgWrapperRef} className="bracket bg-white p-4">
+      <div ref={svgWrapperRef} className="bg-white p-4">
         <QRCodeSVG
           value={SITE_URL}
           size={DISPLAY_SIZE}
