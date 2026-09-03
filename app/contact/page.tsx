@@ -19,10 +19,6 @@ export const metadata: Metadata = {
     "Contactez Ndayane Group par téléphone, WhatsApp ou email pour toute question sur nos portes blindées et haut de gamme.",
 };
 
-// La carte Google Maps ne s'affiche que lorsque l'adresse officielle
-// complète (avec coordonnées) est fournie par le client — voir lib/config.ts.
-const HAS_CONFIRMED_ADDRESS = false;
-
 export default function ContactPage() {
   return (
     <div className="bg-white">
@@ -92,17 +88,6 @@ export default function ContactPage() {
                 </a>
               )}
             </div>
-
-            {HAS_CONFIRMED_ADDRESS ? (
-              <div className="mt-10 aspect-video w-full overflow-hidden border border-stone-line">
-                {/* Carte Google Maps à intégrer une fois l'adresse officielle confirmée. */}
-              </div>
-            ) : (
-              <p className="mt-10 border border-dashed border-stone-line bg-stone p-4 text-xs text-steel-soft">
-                La carte Google Maps sera ajoutée ici dès que l&apos;adresse
-                officielle de Ndayane Group sera confirmée.
-              </p>
-            )}
           </div>
 
           <div className="flex flex-col items-center justify-center gap-6 border border-stone-line bg-stone p-8 text-center">
