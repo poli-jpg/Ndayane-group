@@ -2,7 +2,7 @@
 
 import { useRef, useState } from "react";
 import { QRCodeSVG } from "qrcode.react";
-import { QrCode } from "lucide-react";
+import { Download } from "lucide-react";
 import { SITE_URL } from "@/lib/config";
 
 // ---------------------------------------------------------------------------
@@ -68,10 +68,6 @@ export default function QRCodeBlock() {
           ctx.drawImage(img, 0, 0, EXPORT_SIZE, EXPORT_SIZE);
 
           const pngUrl = canvas.toDataURL("image/png", 1.0);
-          // Si le canvas est bloqué/altéré par une extension, toDataURL
-          // renvoie souvent une image d'1x1 pixel transparente : on le
-          // détecte pour basculer sur le SVG plutôt que de télécharger un
-          // PNG cassé sans prévenir.
           if (pngUrl.length < 1000) throw new Error("Canvas probablement bloqué");
 
           const link = document.createElement("a");
@@ -96,7 +92,7 @@ export default function QRCodeBlock() {
 
   return (
     <div className="flex flex-col items-center gap-6 border border-stone-line bg-white p-8 text-center sm:p-10">
-      <div ref={svgWrapperRef} className="bg-white p-4">
+      <div ref={svgWrapperRef} className="bracket bg-white p-4">
         <QRCodeSVG
           value={SITE_URL}
           size={DISPLAY_SIZE}
@@ -104,32 +100,19 @@ export default function QRCodeBlock() {
           fgColor="#14161a"
           level="H"
           marginSize={2}
-          imageSettings={{
-            // Doit correspondre exactement au fichier logo utilisé dans la
-            // navbar (components/Navbar.tsx). Changez le nom si besoin.
-            src: "/logond-removebg-preview.png",
-            height: Math.round(DISPLAY_SIZE * 0.2),
-            width: Math.round(DISPLAY_SIZE * 0.2),
-            excavate: true,
-          }}
         />
       </div>
       <p className="max-w-xs text-sm text-steel">
         Scannez pour accéder directement au site — idéal pour vos flyers,
         cartes de visite, affiches et stickers.
       </p>
-
-      <div className="flex flex-col items-center gap-3 bg-ink px-8 py-6">
-        <p className="text-sm font-medium text-white">Télécharger maintenant</p>
-        <button
-          onClick={handleDownload}
-          className="inline-flex items-center gap-2 rounded-full border border-white/30 px-5 py-2.5 text-xs font-semibold tracking-widest text-white transition-colors hover:border-brass-light hover:text-brass-light"
-        >
-          <QrCode size={16} />
-          QR CODE
-        </button>
-      </div>
-
+      <button
+        onClick={handleDownload}
+        className="inline-flex items-center gap-2 border border-ink px-5 py-2.5 text-sm font-medium tracking-wide text-ink transition-colors hover:bg-ink hover:text-stone"
+      >
+        <Download size={16} />
+        Télécharger le QR Code
+      </button>
       {downloadError && (
         <p className="text-xs text-steel-soft">
           Le téléchargement a échoué. Essayez avec un clic droit sur le QR
