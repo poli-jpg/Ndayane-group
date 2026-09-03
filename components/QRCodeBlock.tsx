@@ -2,7 +2,7 @@
 
 import { useRef, useState } from "react";
 import { QRCodeSVG } from "qrcode.react";
-import { Download } from "lucide-react";
+import { QrCode } from "lucide-react";
 import { SITE_URL } from "@/lib/config";
 
 // ---------------------------------------------------------------------------
@@ -118,13 +118,18 @@ export default function QRCodeBlock() {
         Scannez pour accéder directement au site — idéal pour vos flyers,
         cartes de visite, affiches et stickers.
       </p>
-      <button
-        onClick={handleDownload}
-        className="inline-flex items-center gap-2 border border-ink px-5 py-2.5 text-sm font-medium tracking-wide text-ink transition-colors hover:bg-ink hover:text-stone"
-      >
-        <Download size={16} />
-        Télécharger le QR Code
-      </button>
+
+      <div className="flex flex-col items-center gap-3 bg-ink px-8 py-6">
+        <p className="text-sm font-medium text-white">Télécharger maintenant</p>
+        <button
+          onClick={handleDownload}
+          className="inline-flex items-center gap-2 rounded-full border border-white/30 px-5 py-2.5 text-xs font-semibold tracking-widest text-white transition-colors hover:border-brass-light hover:text-brass-light"
+        >
+          <QrCode size={16} />
+          QR CODE
+        </button>
+      </div>
+
       {downloadError && (
         <p className="text-xs text-steel-soft">
           Le téléchargement a échoué. Essayez avec un clic droit sur le QR
