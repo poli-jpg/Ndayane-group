@@ -13,6 +13,7 @@ import {
 } from "@/lib/config";
 import { CATEGORIES } from "@/lib/products";
 import { WhatsAppButton } from "./WhatsAppButton";
+import { TiktokIcon, InstagramIcon, FacebookIcon } from "./SocialIcons";
 
 export default function Footer() {
   return (
@@ -27,23 +28,25 @@ export default function Footer() {
               Portes blindées, sécurisées et haut de gamme, conçues pour allier
               sécurité, confort et esthétique.
             </p>
-            <div className="mt-6 flex flex-col gap-3 text-sm">
+            <div className="mt-6 flex items-center gap-4">
               <a
                 href={TIKTOK_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-steel-soft transition-colors hover:text-brass-light"
+                aria-label="TikTok"
+                className="flex h-9 w-9 items-center justify-center border border-white/15 text-steel-soft transition-colors hover:border-brass-light hover:text-brass-light"
               >
-                TikTok — @ndayane_group
+                <TiktokIcon className="h-4 w-4" />
               </a>
               {INSTAGRAM_URL && (
                 <a
                   href={INSTAGRAM_URL}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-steel-soft transition-colors hover:text-brass-light"
+                  aria-label="Instagram"
+                  className="flex h-9 w-9 items-center justify-center border border-white/15 text-steel-soft transition-colors hover:border-brass-light hover:text-brass-light"
                 >
-                  Instagram
+                  <InstagramIcon className="h-4 w-4" />
                 </a>
               )}
               {FACEBOOK_URL && (
@@ -51,9 +54,10 @@ export default function Footer() {
                   href={FACEBOOK_URL}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-steel-soft transition-colors hover:text-brass-light"
+                  aria-label="Facebook"
+                  className="flex h-9 w-9 items-center justify-center border border-white/15 text-steel-soft transition-colors hover:border-brass-light hover:text-brass-light"
                 >
-                  Facebook
+                  <FacebookIcon className="h-4 w-4" />
                 </a>
               )}
             </div>
