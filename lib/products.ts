@@ -74,12 +74,12 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: "p2",
-    name: "Kalis Prestige",
+    name: "Porte de sécurité classique",
     slug: "kalis-prestige",
     reference: "NG-BL-02",
     description: "Porte blindée haut de gamme au design épuré.",
     longDescription:
-      "Kalis Prestige associe une structure sécurisée à un design résolument contemporain. Une porte pensée pour les entrées qui doivent en imposer, sans jamais paraître froides.",
+      "Panneau principal en placage bois chaleureux structuré en deux grands caissons à moulures en relief (section supérieure et section inférieure).",
     category: "blindees",
     material: "Acier",
     finish: "Effet métal brossé",
