@@ -103,7 +103,7 @@ export const PRODUCTS: Product[] = [
     description: "Porte sur mesure, lignes franches et accueillantes.",
     longDescription:
       "Motif graphique à larges rayures horizontales bicolores offrant un contraste visuel fort et moderne.Grande poignée bâton de maréchal rectangulaire verticale   noire mate, complétée par une rosace de serrure carrée en métal argenté avec clés engagées.",
-    category: "Sur mesure",
+    category: "sur-mesure",
     material: "Aluminium",
     finish: "Bicolore",
     dimensions: "Sur devis",
