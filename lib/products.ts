@@ -81,7 +81,7 @@ export const PRODUCTS: Product[] = [
     longDescription:
       "Panneau principal en placage bois chaleureux structuré en deux grands caissons à moulures en relief (section supérieure et section inférieure).",
     category: "blindees",
-    material: "Acier",
+    material: "Bois",
     finish: "Effet métal brossé",
     dimensions: "Sur devis",
     images: 3,
