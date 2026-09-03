@@ -17,10 +17,10 @@ export const COMPANY_TAGLINE =
 
 // Format international, sans "+" ni espaces (ex: 221771234567)
 // TODO(client): confirmer le numéro WhatsApp officiel avant publication.
-export const WHATSAPP_NUMBER = "221774511216";
+export const WHATSAPP_NUMBER = "221784653251";
 
 // TODO(client): confirmer le numéro de téléphone officiel.
-export const PHONE_NUMBER = "+221 77 451 12 16";
+export const PHONE_NUMBER = "+221 78 465 32 51";
 
 // TODO(client): confirmer l'adresse email officielle.
 export const EMAIL = "contact@ndayanegroup.com";
