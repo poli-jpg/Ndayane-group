@@ -133,12 +133,12 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: "p5",
-    name: "Lumis Intérieure",
+    name: "Modern Horizontal Slats",
     slug: "lumis-interieure",
     reference: "NG-IN-01",
     description: "Porte intérieure légère, design minimaliste.",
     longDescription:
-      "Pensée pour les espaces intérieurs qui recherchent la lumière et la simplicité, Lumis propose un tracé minimaliste qui s'efface au profit de votre intérieur.",
+      " Panneau central recouvert d'un motif strié à fines rainures horizontales régulières, encadré par un profilé lisse.Longue poignée bâton de maréchal carrée en métal foncé, disposée verticalement.",
     category: "interieures",
     material: "Bois",
     finish: "Blanc satiné",
