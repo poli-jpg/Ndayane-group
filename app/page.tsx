@@ -195,6 +195,7 @@ export default function HomePage() {
                   category={p.category}
                   seed={i + 3}
                   className="aspect-square w-full"
+                  priority={i === 0}
                 />
               </Link>
             ))}
