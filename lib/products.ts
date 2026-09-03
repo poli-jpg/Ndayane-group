@@ -51,7 +51,7 @@ export interface Product {
 export const PRODUCTS: Product[] = [
   {
     id: "p1",
-    name: "Modern Horizontal Line with Integrated Lighting",
+    name: "Modern Horizontal",
     slug: "alto-blindee",
     reference: "NG-BL-01",
     description: "Porte blindée renforcée, conçue pour une sécurité maximale.",
@@ -151,7 +151,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: "p6",
-    name: "Modern Two-Tone Vertical Slats",
+    name: "Modern Two-Tone Vertical",
     slug: "ebene-interieure",
     reference: "NG-IN-02",
     description: "Porte intérieure au ton sombre et raffiné.",
@@ -169,12 +169,12 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: "p7",
-    name: "Cubik Moderne",
+    name: "Modern Black & White Stripe",
     slug: "cubik-moderne",
     reference: "NG-MO-01",
     description: "Porte moderne aux volumes géométriques affirmés.",
     longDescription:
-      "Cubik s'appuie sur des volumes géométriques nets pour affirmer une identité architecturale forte, taillée pour les façades contemporaines.",
+      "Motif graphique à larges rayures horizontales bicolores offrant un contraste visuel fort et moderne.",
     category: "modernes",
     material: "Aluminium",
     finish: "Gris anthracite",
