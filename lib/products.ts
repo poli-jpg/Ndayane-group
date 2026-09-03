@@ -169,12 +169,12 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: "p7",
-    name: "Modern Black & White Stripe",
+    name: "White Diamond Carving",
     slug: "cubik-moderne",
     reference: "NG-MO-01",
-    description: "Porte moderne aux volumes géométriques affirmés.",
+    description: "Porte de sécurité néoclassique et Minimaliste chic.",
     longDescription:
-      "Motif graphique à larges rayures horizontales bicolores offrant un contraste visuel fort et moderne.",
+      "Panneau central sculpté en retrait avec moulure d'encadrement, gravé d'un motif discret de losanges géométriques à effet diamants.",
     category: "modernes",
     material: "Aluminium",
     finish: "Gris anthracite",
