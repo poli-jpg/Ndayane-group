@@ -188,12 +188,12 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: "p8",
-    name: "Reliëf Décorative",
+    name: " Luxury Marble Effect Series",
     slug: "relief-decorative",
     reference: "NG-DE-01",
     description: "Porte décorative avec motifs en relief.",
     longDescription:
-      "Reliëf met en scène un jeu de motifs en relief qui capte la lumière tout au long de la journée, pour une entrée qui a du caractère.",
+      "Revêtement élégant imitant le marbre blanc Calacatta, séparé par un insert vertical vitré ou métallique sombre au niveau de la poignée.",
     category: "decoratives",
     material: "Acier",
     finish: "Motifs en relief",
