@@ -97,13 +97,13 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: "p3",
-    name: "Horizon Entrée",
+    name: "Modern Black & White Stripe",
     slug: "horizon-entree",
     reference: "NG-EN-01",
     description: "Porte d'entrée moderne, lignes franches et accueillantes.",
     longDescription:
-      "Une porte d'entrée pensée pour donner le ton dès le premier regard : des lignes franches, une allure moderne et un accueil chaleureux pour votre maison.",
-    category: "entree",
+      "Motif graphique à larges rayures horizontales bicolores offrant un contraste visuel fort et moderne.Grande poignée bâton de maréchal rectangulaire verticale   noire mate, complétée par une rosace de serrure carrée en métal argenté avec clés engagées.",
+    category: "sur mesure",
     material: "Aluminium",
     finish: "Bicolore",
     dimensions: "Sur devis",
