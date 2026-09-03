@@ -151,12 +151,12 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: "p6",
-    name: "Ébène Intérieure",
+    name: "Modern Two-Tone Vertical Slats",
     slug: "ebene-interieure",
     reference: "NG-IN-02",
     description: "Porte intérieure au ton sombre et raffiné.",
     longDescription:
-      "Un ton sombre et raffiné pour les intérieurs qui assument le contraste. Ébène habille vos pièces d'une élégance discrète et affirmée.",
+      "Partie supérieure habillée de fines rainures verticales en bois clair, partie inférieure structurée par une alternance de bandes horizontales lisses gris anthracite et bois clair.",
     category: "interieures",
     material: "Bois",
     finish: "Chêne foncé",
