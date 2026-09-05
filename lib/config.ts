@@ -15,12 +15,13 @@ export const COMPANY_NAME = "Ndayane Group";
 export const COMPANY_TAGLINE =
   "Portes blindées, sécurisées et haut de gamme";
 
-// Format international, sans "+" ni espaces (ex: 221771234567)
+// Format international, sans "+" ni espaces (ex: 221774511216)
 // TODO(client): confirmer le numéro WhatsApp officiel avant publication.
 export const WHATSAPP_NUMBER = "221784653251";
 
 // TODO(client): confirmer le numéro de téléphone officiel.
-export const PHONE_NUMBER = "+221 78 465 32 51";
+export const PHONE_NUMBER = "33 875 40 41/77 451 12 16/
+78 614 99 99";
 
 // TODO(client): confirmer l'adresse email officielle.
 export const EMAIL = "contact@ndayanegroup.com";
