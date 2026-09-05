@@ -62,6 +62,21 @@ export default async function ProductPage({
               priority
             />
           </div>
+          {galleryCount > 1 && (
+            <div className="mt-3 grid grid-cols-3 gap-3">
+              {Array.from({ length: Math.min(galleryCount, 3) }).map((_, i) => (
+                <div key={i} className="overflow-hidden bg-stone-2">
+                  <DoorImage
+                    src={product.photos?.[i + 1]}
+                    alt={`${product.name} — vue ${i + 2}`}
+                    category={product.category}
+                    seed={i + 1}
+                    className="aspect-square w-full"
+                  />
+                </div>
+              ))}
+            </div>
+          )}
           {!product.photos?.length && (
             <p className="mt-3 text-xs text-steel-soft">
               Illustrations de référence — photos HD à venir.
@@ -98,7 +113,7 @@ export default async function ProductPage({
             {product.dimensions && (
               <div>
                 <dt className="text-xs tracking-wide text-steel-soft">Dimensions</dt>
-                <dd className="mt-1 font-medium text-ink">{product.dimensions}</dd>
+                <dd className="mt-1 whitespace-pre-line font-medium text-ink">{product.dimensions}</dd>
               </div>
             )}
             <div>
