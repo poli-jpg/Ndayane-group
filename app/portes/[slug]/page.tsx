@@ -35,7 +35,6 @@ export default async function ProductPage({
   if (!product) notFound();
 
   const categoryLabel = CATEGORIES.find((c) => c.value === product.category)?.label ?? "";
-  const galleryCount = Math.max(product.images, 1);
 
   return (
     <div className="bg-white">
@@ -62,21 +61,6 @@ export default async function ProductPage({
               priority
             />
           </div>
-          {galleryCount > 1 && (
-            <div className="mt-3 grid grid-cols-3 gap-3">
-              {Array.from({ length: Math.min(galleryCount, 3) }).map((_, i) => (
-                <div key={i} className="overflow-hidden bg-stone-2">
-                  <DoorImage
-                    src={product.photos?.[i + 1]}
-                    alt={`${product.name} — vue ${i + 2}`}
-                    category={product.category}
-                    seed={i + 1}
-                    className="aspect-square w-full"
-                  />
-                </div>
-              ))}
-            </div>
-          )}
           {!product.photos?.length && (
             <p className="mt-3 text-xs text-steel-soft">
               Illustrations de référence — photos HD à venir.
