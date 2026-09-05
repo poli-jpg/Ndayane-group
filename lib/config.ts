@@ -17,7 +17,7 @@ export const COMPANY_TAGLINE =
 
 // Format international, sans "+" ni espaces (ex: 221774511216)
 // TODO(client): confirmer le numéro WhatsApp officiel avant publication.
-export const WHATSAPP_NUMBER = "221784653251";
+export const WHATSAPP_NUMBER = "221774511216";
 
 // TODO(client): confirmer le numéro de téléphone officiel.
 export const PHONE_NUMBER = "33 875 40 41 / 77 451 12 16 / 78 614 99 99";
