@@ -20,8 +20,7 @@ export const COMPANY_TAGLINE =
 export const WHATSAPP_NUMBER = "221784653251";
 
 // TODO(client): confirmer le numéro de téléphone officiel.
-export const PHONE_NUMBER = "33 875 40 41/77 451 12 16/
-78 614 99 99";
+export const PHONE_NUMBER = "33 875 40 41 / 77 451 12 16 / 78 614 99 99";
 
 // TODO(client): confirmer l'adresse email officielle.
 export const EMAIL = "contact@ndayanegroup.com";
