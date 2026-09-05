@@ -60,7 +60,7 @@ export const PRODUCTS: Product[] = [
     category: "blindees",
     material: "Acier renforcé",
     finish: "Laqué mat",
-    dimensions: "110 - 215 avec cadre,90 - 205 sans cadre",
+    dimensions: "110 - 215 avec cadre","90 - 205 sans cadre",
     images: 4,
     photos: ["/images/portes/porte1.jpeg"], 
     featured: true,
